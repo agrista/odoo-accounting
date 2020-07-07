@@ -21,30 +21,40 @@
 #############################################################################
 
 {
-    'name': 'Odoo 13 Full Accounting Kit',
-    'version': '13.0.4.8.9',
-    'category': 'Accounting',
-    'live_test_url': 'https://www.youtube.com/watch?v=peAp2Tx_XIs',
-    'summary': """ Asset and Budget Management,
-                 Accounting Reports, PDC, Lock dates, 
-                 Credit Limit, Follow Ups, 
+    'name':
+    'Odoo 13 Full Accounting Kit',
+    'version':
+    '13.0.4.8.9',
+    'category':
+    'Accounting',
+    'live_test_url':
+    'https://www.youtube.com/watch?v=peAp2Tx_XIs',
+    'summary':
+    """ Asset and Budget Management,
+                 Accounting Reports, PDC, Lock dates,
+                 Credit Limit, Follow Ups,
                  Day-Bank-Cash book reports.""",
-    'description': """
-                    Odoo 13 Accounting,Accounting Reports, Odoo 13 Accounting 
-                    PDF Reports, Asset Management, Budget Management, 
+    'description':
+    """
+                    Odoo 13 Accounting,Accounting Reports, Odoo 13 Accounting
+                    PDF Reports, Asset Management, Budget Management,
                     Customer Credit Limit, Recurring Payment,
                     PDC Management, Customer Follow-up,
-                    Lock Dates into Odoo 13 Community Edition, 
-                    Odoo Accounting,Odoo 13 Accounting Reports,Odoo 13,, 
-                    Full Accounting, Complete Accounting, 
-                    Odoo Community Accounting, Accounting for odoo 13, 
-                    Full Accounting Package, 
+                    Lock Dates into Odoo 13 Community Edition,
+                    Odoo Accounting,Odoo 13 Accounting Reports,Odoo 13,
+                    Full Accounting, Complete Accounting,
+                    Odoo Community Accounting, Accounting for odoo 13,
+                    Full Accounting Package,
                     Financial Reports, Financial Report for Odoo 13
                     """,
-    'author': ' Odoo SA,Cybrosys Techno Solutions',
-    'website': "https://www.cybrosys.com",
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'author':
+    ' Odoo SA,Cybrosys Techno Solutions',
+    'website':
+    "https://www.cybrosys.com",
+    'company':
+    'Cybrosys Techno Solutions',
+    'maintainer':
+    'Cybrosys Techno Solutions',
     'depends': ['base', 'account', 'sale', 'account_check_printing'],
     'data': [
         'security/ir.model.access.csv',
@@ -98,12 +108,14 @@
         'report/account_asset_report_views.xml',
         'report/report.xml',
     ],
-    'qweb': [
-        'static/src/xml/template.xml'
-    ],
-    'license': 'LGPL-3',
+    'qweb': ['static/src/xml/template.xml'],
+    'license':
+    'LGPL-3',
     'images': ['static/description/banner.gif'],
-    'installable': True,
-    'auto_install': False,
-    'application': True,
+    'installable':
+    True,
+    'auto_install':
+    False,
+    'application':
+    True,
 }
